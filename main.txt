@@ -1,7 +1,8 @@
 #inlcude <iostream>
 
-void helloWorld(){
-	std::cout << "Hello world!" << std::endl;
+void print(const std::string& message){
+	std::cout << message << std::endl;
 }
 int main(){
+	print("Hello World");
 }
